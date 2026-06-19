@@ -1,0 +1,6 @@
+services:
+  - type: worker                  # 1. "Mening loyiham sayt emas, fonda ishlaydigan dastur (Worker)!"
+    name: gronit-ai-worker        # 2. "Ushbu xizmatga mana shu nomni ber."
+    runtime: python               # 3. "Uni ishga tushirish uchun Python muhitini tayyorla."
+    buildCommand: pip install -r requirements.txt  # 4. "Ishga tushishdan avval mana shu buyruq bilan kutubxonalarni oʻrnat."
+    startCommand: python main.py  # 5. "Hammasi tayyor boʻlgach, mana shu buyruq bilan botni yurgiz."

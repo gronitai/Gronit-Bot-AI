@@ -60,5 +60,4 @@ async def echo_all(message: types.Message):
         f"Tizim muvaffaqiyatli ishlayapti. Tez orada AI integratsiyasini yakunlaymiz!"
     )
 
-if name == 'main':
-    executor.start_polling(dp, skip_updates=True)
+if __name__ == '__main__':
